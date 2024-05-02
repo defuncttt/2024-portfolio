@@ -9,18 +9,20 @@ body {
 }
 /* end of body shenanigans */
 #header {
+  display: flex;
     width: 100%;
+    height: 150px;
     background-color: #24488c;
     color: white;
     margin-bottom: 10px;
     padding-left: 20px;
+    align-items: center;
 }
     #header-1 {
         padding-left: 700px;
     }
 /* end of head shenanigans */
 #nav-menu {
-    
     display:flex;
     color: beige;
     list-style-type: none;
@@ -31,9 +33,12 @@ body {
     margin-bottom: 0px;
 }
 li {
+    display: flex;
     background-color:#24488c;
     border: solid 1px white;
     border-bottom: 0px;
+    padding: 10px;
+    align-items: center;
 }
 /* end of nav-menu shenanigans */
 #main {
@@ -44,8 +49,15 @@ li {
     padding: 15px;
     width: 963px;
     height: 3000px;
-    flex-flow: row;
-    justify-content: space-around;
+}    
+#main-intro {
+  display:flex;
+  width: 963px;
+  height: 450px;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px white solid;
 }
 #main-intro1 {
     display: flex;
