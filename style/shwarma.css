@@ -45,6 +45,16 @@ body {
   border-bottom: 0px;
   padding: 10px;
   align-items: center;
+  font-size: 37.75px;
+}
+.nav-item-inactive {
+  display: flex;
+  background-color: #1b345b;
+  border: solid 1px white;
+  border-bottom: 0px;
+  padding: 10px;
+  align-items: center;
+  font-size: 37.75px;
 }
 /* end of nav-menu shenanigans */
 
@@ -309,7 +319,14 @@ a:link:active, a:visited:active {
 /* end of about me shenanigans */
 
 /* UNIQUE TO PORFOLIO */
-
+#main-portfolio {
+  color: white;
+  background-color: #24488c;
+  border: solid 1px white;
+  padding: 15px;
+  width: 963px;
+  height: 1325px;
+}
 
 
 
