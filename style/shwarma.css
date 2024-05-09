@@ -6,6 +6,12 @@ body {
   align-items: center;
   background-color: #20088c;
   font-family: 'Fira Sans';
+
+  background-image: url("../assets/images/background.png");
+  background-size: 1024px 818px;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 /* end of body shenanigans */
 #header {
@@ -300,8 +306,9 @@ a:link:active, a:visited:active {
       }
     /* end of qualities */
   /* end of resume shenanigans */
+/* end of about me shenanigans */
 
-
+/* UNIQUE TO PORFOLIO */
 
 
 
