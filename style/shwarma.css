@@ -41,14 +41,38 @@ body {
   align-items: center;
 }
 /* end of nav-menu shenanigans */
-#main {
-    color: white;
-    background-color: #24488c;
-    border: solid 1px white;
-    padding: 15px;
-    width: 963px;
-    height: 3000px;
-} /* end of main */   
+
+#footer {
+  display: flex;
+  justify-content: center;
+  border: solid 1px white;
+  width: 993px;
+  background: #24488c;
+  margin-top: 0px;
+}
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:link:active, a:visited:active {
+  color: rgb(190, 190, 190);
+}
+/* end of footer */
+
+
+
+
+/* UNIQUE TO ABOUT ME PAGE */
+#main-aboutme {
+  color: white;
+  background-color: #24488c;
+  border: solid 1px white;
+  padding: 15px;
+  width: 963px;
+  height: 1325px;
+} 
+/* end of main */
 #main-intro {
   display:flex;
   width: 963px;
@@ -66,6 +90,10 @@ body {
   height: 416px;
   padding-top: 0px;
   /* border: 1px white solid; */
+}
+#main-intro2 {
+  border-left: 5px white solid;
+  padding-left: 45px;
 }
   #mi-1 {
     font-size: 60px;
@@ -89,8 +117,9 @@ body {
   display:flex;
   width: 963px;
   height: 820px;
-  /* border: 1px white solid; */
   justify-content: space-around;
+  flex-flow: wrap;
+  /* border: 1px white solid; */
 }
   #mr-edu {
     display:flex;
@@ -146,7 +175,7 @@ body {
       font-size: 21px;
       /* border: 1px white solid; */
     }
-    .ex-info-li {
+    .ex-li {
       font-family: "Fira Sans", sans-serif;
       font-weight: 400;
       font-style: normal;
@@ -156,23 +185,123 @@ body {
       padding-bottom: 0px;
     }
   /* end of ex */
-#footer {
-  display: flex;
-  justify-content: center;
-  border: solid 1px white;
-  width: 993px;
-  background: #24488c;
-  margin-top: 0px;
-}
-a:link, a:visited {
-  color: white;
-  text-decoration: none;
-  cursor: pointer;
-}
-a:link:active, a:visited:active {
-  color: rgb(190, 190, 190);
-}
-/* end of footer */
+  #mr-skills {
+    display:flex;
+    width: 300px;
+    height: 220px;
+    flex-flow: column;
+    align-items: center;
+    /* border: 1px white solid; */
+  }
+    #sk-header {
+      display:flex;
+      width: 130px;
+      height: 35px;
+      font-size: 36px;
+      border: 4px solid white;
+      border-radius: 15px;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      margin-bottom: 0px;
+    }
+    #sk-info {
+      margin-top: 0px;
+      width: 250px;
+      height: 223px;
+      font-size: 21px;
+      /* border: 1px white solid; */
+    }
+    .sk-li {
+      font-family: "Fira Sans", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 24px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+    /* end of sk */
+    #mr-exp {
+      display:flex;
+      width: 300px;
+      height: 220px;
+      flex-flow: column;
+      align-items: center;
+      /* border: 1px white solid; */
+    }
+      #exp-header {
+        display:flex;
+        width: 220px;
+        height: 35px;
+        font-size: 36px;
+        border: 4px solid white;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin-bottom: 0px;
+      }
+      #exp-info {
+        margin-top: 0px;
+        width: 250px;
+        height: 223px;
+        font-size: 21px;
+        /* border: 1px white solid; */
+      }
+      .exp-li {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+    /* end of exp */
+    #mr-qualities {
+      display:flex;
+      width: 300px;
+      height: 220px;
+      flex-flow: column;
+      align-items: center;
+      /* border: 1px white solid; */
+    }
+      #qu-header {
+        display:flex;
+        width: 180px;
+        height: 35px;
+        font-size: 36px;
+        border: 4px solid white;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        margin-bottom: 0px;
+      }
+      #qu-info {
+        margin-top: 0px;
+        width: 250px;
+        height: 223px;
+        font-size: 21px;
+        /* border: 1px white solid; */
+      }
+      .qu-li {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+    /* end of qualities */
+  /* end of resume shenanigans */
+
+
 
 
 
