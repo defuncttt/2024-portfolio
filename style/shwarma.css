@@ -325,7 +325,7 @@ a:link:active, a:visited:active {
   border: solid 1px white;
   padding: 15px;
   width: 963px;
-  height: 1325px;
+  height: 1700px;
 } /* this is gonna be awful */
 .pf-header {
   font-family: "Fira Sans", sans-serif;
@@ -366,6 +366,27 @@ a:link:active, a:visited:active {
     margin-top: 0px;
     padding-top: 0px;
   }
+  /* end of pf2 */
+  #pf-3 {
+    display: flex;
+    width: 963px;
+    height: 400px;
+    flex-flow: row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  #pf-4 {
+    display: flex;
+    width: 963px;
+    height: 400px;
+    flex-flow: row;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
 
   
 /* end of portfolio shenanigans */
@@ -377,7 +398,7 @@ a:link:active, a:visited:active {
   border: solid 1px white;
   padding: 15px;
   width: 963px;
-  height: 1200px;
+  height: 900px;
   flex-flow: row;
   justify-content: space-around;
 }
