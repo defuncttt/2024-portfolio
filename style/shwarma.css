@@ -94,6 +94,8 @@ a:link:active, a:visited:active {
   width: 963px;
   height: 450px;
   flex-flow: row;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
   justify-content: space-around;
   align-items: center;
   /* border: 1px white solid; */
