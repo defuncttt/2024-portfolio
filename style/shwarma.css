@@ -16,13 +16,13 @@ body {
 /* end of body shenanigans */
 #header {
   display: flex;
+  align-items: center;
   width: 100%;
   height: 150px;
   background-color: #24488c;
   color: white;
   margin-bottom: 10px;
   padding-left: 20px;
-  align-items: center;
 }
     #header-1 {
       padding-left: 50px;
