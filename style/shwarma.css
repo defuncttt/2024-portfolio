@@ -21,11 +21,13 @@ body {
   height: 150px;
   background-color: #24488c;
   color: white;
-  margin-bottom: 10px;
-  padding-left: 20px;
+  margin: 0px;
+  padding:0px;
+  /* margin-bottom: 10px;
+  padding-left: 20px; */
 }
     #header-1 {
-      padding-left: 50px;
+      padding-left: 40px;
     }
 /* end of head shenanigans */
 #nav-menu {
