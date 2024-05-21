@@ -397,14 +397,15 @@ a:link:active, a:visited:active {
 
 /* UNIQUE TO CONTACT */
 #main-contact {
+  display:flex;
   color: white;
   background-color: #24488c;
   border: solid 1px white;
   padding: 15px;
   width: 963px;
-  height: 900px;
-  flex-flow: row;
-  justify-content: space-around;
+  height: 920px;
+  flex-flow: column;
+  align-items: center;
 }
 #contact-info {
   display: flex;
@@ -439,6 +440,11 @@ a:link:active, a:visited:active {
     font-size: 25px;
     margin-left: 50px;
     margin-top: 5px;
+  }
+  #contact-paragraph {
+    margin-top: 100px;
+    font-size: 30px;
+    width: 500px;
   }
 
 
