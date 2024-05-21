@@ -43,7 +43,7 @@ body {
 .nav-item {
   display: flex;
   background-color:#24488c;
-  border: solid 1px white;
+  /* border: solid 1px white; */
   border-bottom: 0px;
   padding: 10px;
   align-items: center;
