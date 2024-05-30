@@ -27,16 +27,17 @@ body {
   padding-left: 20px; */
 }
     #header-1 {
-      transition-property: width;
-      transition-duration: 5s;
+      transition-property: width, height;
+      transition-duration: 2s;
       width: 713px;
+      height: 80px;
       padding-left: 40px;
     }
     #header-1:hover {
-      transition-property: width;
-      transition-duration: 5s;
-      transition-delay: 10s;
-      width: 2000px;
+      transition-property: width, height;
+      transition-duration: 2s;
+      width: 800px;
+      height: 120px;
       padding-left: 40px; 
     }
 /* end of head shenanigans */
