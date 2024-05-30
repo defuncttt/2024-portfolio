@@ -43,7 +43,7 @@ body {
 .nav-item {
   display: flex;
   background-color:#24488c;
-  /* border: solid 1px white; */
+  border: solid 1px white;
   border-bottom: 0px;
   padding: 10px;
   align-items: center;
@@ -65,13 +65,22 @@ body {
   justify-content: center;
   border: solid 1px white;
   width: 993px;
-  background: #24488c;
+  background: #24488c;  
   margin-top: 0px;
 }
 a:link, a:visited {
-  color: white;
+  transition-property: color;
+  transition-duration: 0.25s;
+  transition-delay: 0.10s;
+  color: rgb(179, 179, 179);
   text-decoration: none;
   cursor: pointer;
+}
+a:hover {
+  transition-property: color;
+  transition-duration: 0.25s;
+  transition-delay: 0.10s;
+  color: white;
 }
 a:link:active, a:visited:active {
   color: rgb(190, 190, 190);
