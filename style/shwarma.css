@@ -27,12 +27,22 @@ body {
   padding-left: 20px; */
 }
     #header-1 {
+      transition-property: width;
+      transition-duration: 5s;
+      width: 713px;
       padding-left: 40px;
+    }
+    #header-1:hover {
+      transition-property: width;
+      transition-duration: 5s;
+      transition-delay: 10s;
+      width: 2000px;
+      padding-left: 40px; 
     }
 /* end of head shenanigans */
 #nav-menu {
   display:flex;
-  color: beige;
+  color: white;
   list-style-type: none;
   width: 963px;
   height: 50px;
@@ -43,16 +53,17 @@ body {
 .nav-item {
   display: flex;
   background-color:#24488c;
-  border: solid 1px white;
+  border: solid 3px white;
   border-bottom: 0px;
   padding: 10px;
   align-items: center;
   font-size: 37.75px;
+  height: 30px;
 }
 .nav-item-inactive {
   display: flex;
   background-color: #1b345b;
-  border: solid 1px white;
+  border: solid 3px white;
   border-bottom: 0px;
   padding: 10px;
   align-items: center;
@@ -63,8 +74,10 @@ body {
 #footer {
   display: flex;
   justify-content: center;
-  border: solid 1px white;
+  border: solid 3px white;
+  border-top: 0px;  
   width: 993px;
+  height: 50px; 
   background: #24488c;  
   margin-top: 0px;
 }
@@ -94,10 +107,11 @@ a:link:active, a:visited:active {
 #main-aboutme {
   color: white;
   background-color: #24488c;
-  border: solid 1px white;
+  border: solid 3px white;
   padding: 15px;
   width: 963px;
   height: 1325px;
+  z-index: -1;
 } 
 /* end of main */
 #main-intro {
@@ -335,10 +349,11 @@ a:link:active, a:visited:active {
 #main-portfolio {
   color: white;
   background-color: #24488c;
-  border: solid 1px white;
+  border: solid 3px white;
   padding: 15px;
   width: 963px;
   height: 1700px;
+  z-index: -1;
 } /* this is gonna be awful */
 .pf-header {
   font-family: "Fira Sans", sans-serif;
@@ -409,12 +424,13 @@ a:link:active, a:visited:active {
   display:flex;
   color: white;
   background-color: #24488c;
-  border: solid 1px white;
+  border: solid 3px white;
   padding: 15px;
   width: 963px;
   height: 920px;
   flex-flow: column;
   align-items: center;
+  z-index: -1;
 }
 #contact-info {
   display: flex;
