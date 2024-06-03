@@ -82,7 +82,7 @@ body {
   background: #24488c;  
   margin-top: 0px;
 }
-a:link, a:visited {
+#nav-link:link, #nav-link:visited {
   transition-property: color;
   transition-duration: 0.25s;
   transition-delay: 0.10s;
@@ -90,13 +90,13 @@ a:link, a:visited {
   text-decoration: none;
   cursor: pointer;
 }
-a:hover {
+#nav-link:hover {
   transition-property: color;
   transition-duration: 0.25s;
   transition-delay: 0.10s;
   color: white;
 }
-a:link:active, a:visited:active {
+#nav-link:link:active, #nav-link:visited:active {
   color: rgb(190, 190, 190);
 }
 /* end of footer */
