@@ -60,6 +60,7 @@ body {
   align-items: center;
   font-size: 37.75px;
   height: 30px;
+  z-index: 2;
 }
 .nav-item-inactive {
   display: flex;
@@ -69,6 +70,7 @@ body {
   padding: 10px;
   align-items: center;
   font-size: 37.75px;
+  z-index: 2;
 }
 /* end of nav-menu shenanigans */
 
@@ -109,6 +111,7 @@ body {
   color: white;
   background-color: #24488c;
   border: solid 3px white;
+  border-bottom: 0px;
   padding: 15px;
   width: 963px;
   height: 1325px;
@@ -351,11 +354,16 @@ body {
   color: white;
   background-color: #24488c;
   border: solid 3px white;
+  border-bottom: 0px;
   padding: 15px;
   width: 963px;
   height: 1700px;
-  z-index: -1;
+  z-index: 1;
 } /* this is gonna be awful */
+#pf-link {
+  position: relative;
+  z-index: 2;
+}
 .pf-header {
   font-family: "Fira Sans", sans-serif;
   font-weight: 500;
@@ -373,6 +381,59 @@ body {
   width: 400px;
   height: 200px;
 }
+/* stupid link stuff */
+  #pf-surreal {
+    transition-property: width, height;
+    transition-duration: 0.5s;
+    width: 475px;
+    height: 380px;
+  }
+  #pf-surreal:hover {  
+    transition-property: width, height;
+    transition-duration: 0.5s;
+    width: 485px;
+    height: 390px;
+  }
+  /* end of surreal */
+  #pf-impossible {
+    transition-property: width, height;
+    transition-duration: 0.5s;
+    width: 475px;
+    height: 317px;
+  }
+  #pf-impossible:hover {  
+    transition-property: width, height;
+    transition-duration: 0.5s;
+    width: 485px;
+    height: 327px;
+  }
+  /* end of impossible */
+  #pf-heat {
+    transition-property: width, height;
+    transition-duration: 0.5s;
+    width: 236px;
+    height: 365px;
+  }
+  #pf-heat:hover {  
+    transition-property: width, height;
+    transition-duration: 0.5s;
+    width: 242px;
+    height: 375px;
+  }
+  /* end of heat-poster */
+  #pf-show {
+    transition-property: width, height;
+    transition-duration: 0.5s;
+    width: 475px;
+    height: 367px;
+  }
+  #pf-show:hover {  
+    transition-property: width, height;
+    transition-duration: 0.5s;
+    width: 485px;
+    height: 377px;
+  }
+  /* end of showstoppers and link stuff */
 /* end of universal classes for pf stuff */
   #pf-1 {
     display: flex;
@@ -426,6 +487,7 @@ body {
   color: white;
   background-color: #24488c;
   border: solid 3px white;
+  border-bottom: 0px;
   padding: 15px;
   width: 963px;
   height: 920px;
